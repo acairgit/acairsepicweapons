@@ -1,0 +1,6 @@
+{
+  "parent": "acairsepicweapons:custom/scythe_custom",
+  "textures": {
+    "layer0": "acairsepicweapons:item/diamond_scythe"
+  }
+}
