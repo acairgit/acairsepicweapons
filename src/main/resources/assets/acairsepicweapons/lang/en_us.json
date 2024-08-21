@@ -3,5 +3,13 @@
   "item.acairsepicweapons.diamond_dagger": "Diamond Dagger",
   "item.acairsepicweapons.iron_scythe": "Iron Scythe",
   "item.acairsepicweapons.diamond_scythe": "Diamond Scythe",
-  "effect.acairsepicweapons.bleeding": "Bleeding"
+
+
+  "effect.acairsepicweapons.bleeding": "Bleeding",
+  "effect.acairsepicweapons.bleeding_i": "Bleeding I",
+  "effect.acairsepicweapons.bleeding_ii": "Bleeding II",
+  "effect.acairsepicweapons.bleeding_iii": "Bleeding III",
+  "effect.acairsepicweapons.bleeding_iv": "Bleeding IV",
+  "effect.acairsepicweapons.bleeding_v": "Bleeding V",
+  "item.acairsepicweapons.scythe.tooltip": "Causes bleeding, which causes damage for a while"
 }

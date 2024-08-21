@@ -2,5 +2,14 @@
   "item.acairsepicweapons.iron_dagger": "Желѣзный Кинжалъ",
   "item.acairsepicweapons.diamond_dagger": "Алмазный Кинжалъ",
   "item.acairsepicweapons.iron_scythe": "Желѣзная Коса",
-  "item.acairsepicweapons.diamond_scythe": "Алмазная Коса"
+  "item.acairsepicweapons.diamond_scythe": "Алмазная Коса",
+
+
+  "effect.acairsepicweapons.bleeding": "Кровотеченіе",
+  "effect.acairsepicweapons.bleeding_i": "Кровотеченіе I",
+  "effect.acairsepicweapons.bleeding_ii": "Кровотеченіе II",
+  "effect.acairsepicweapons.bleeding_iii": "Кровотеченіе III",
+  "effect.acairsepicweapons.bleeding_iv": "Кровотеченіе IV",
+  "effect.acairsepicweapons.bleeding_v": "Кровотеченіе V",
+  "item.acairsepicweapons.scythe.tooltip": "Вызываетъ кровотеченіе, которое наноситъ уронъ некаторе время"
 }
