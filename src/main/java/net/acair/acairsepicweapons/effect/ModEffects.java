@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
+//
 @Mod.EventBusSubscriber(modid = "acairsepicweapons", bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS =

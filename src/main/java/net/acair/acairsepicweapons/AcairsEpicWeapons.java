@@ -18,7 +18,7 @@ public class AcairsEpicWeapons {
     static {
         LogUtils.getLogger();
     }
-
+//
     public AcairsEpicWeapons() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

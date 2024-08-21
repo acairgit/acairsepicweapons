@@ -7,7 +7,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
 
 public class BloodParticles {
-
+//
     public static void spawnBloodParticles(LivingEntity entity, Level level) {
         ParticleEngine particleEngine = Minecraft.getInstance().particleEngine;
         SimpleParticleType bloodParticleType = ModParticles.BLOOD_PARTICLE.get();

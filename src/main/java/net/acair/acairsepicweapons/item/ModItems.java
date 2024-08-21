@@ -13,7 +13,6 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AcairsEpicWeapons.MOD_ID);
 
-    // Generic method to register weapons
     private static RegistryObject<Item> registerWeapon(String name, Tiers tier) {
         return ITEMS.register(name, () -> new SwordItem(tier, 2, (float) -2.0, new Item.Properties()));
     }

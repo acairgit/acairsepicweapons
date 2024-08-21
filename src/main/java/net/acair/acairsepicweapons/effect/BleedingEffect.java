@@ -32,7 +32,6 @@ public class BleedingEffect extends MobEffect {
         // Создаем DamageSource с использованием Holder<DamageType>
         DamageSource damageSource = new DamageSource(damageTypeHolder);
 
-        // Наносим урон в зависимости от уровня эффекта (amplifier + 1)
         float damage = switch (amplifier) {
             case 0 -> 0.3f; // Bleeding I
             case 1 -> 0.5f; // Bleeding II
