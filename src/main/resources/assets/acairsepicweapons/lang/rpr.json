@@ -1,8 +1,48 @@
 {
+  "item.acairsepicweapons.stone_chekan": "Каменный Чеканъ",
+  "item.acairsepicweapons.stone_dagger": "Каменный Кинжалъ",
+  "item.acairsepicweapons.stone_katana": "Каменная Катана",
+  "item.acairsepicweapons.stone_katar": "Каменный Катаръ",
+  "item.acairsepicweapons.stone_oldsword": "Каменный Древній Мечъ",
+  "item.acairsepicweapons.stone_saber": "Каменная Сабля",
+  "item.acairsepicweapons.stone_scythe": "Каменная Коса",
+  "item.acairsepicweapons.stone_spear": "Каменное Копье",
+
+  "item.acairsepicweapons.iron_chekan": "Желѣзный Чеканъ",
   "item.acairsepicweapons.iron_dagger": "Желѣзный Кинжалъ",
-  "item.acairsepicweapons.diamond_dagger": "Алмазный Кинжалъ",
+  "item.acairsepicweapons.iron_katana": "Желѣзная Катана",
+  "item.acairsepicweapons.iron_katar": "Желѣзный Катаръ",
+  "item.acairsepicweapons.iron_oldsword": "Желѣзный Древній Мечъ",
+  "item.acairsepicweapons.iron_saber": "Желѣзная Сабля",
   "item.acairsepicweapons.iron_scythe": "Желѣзная Коса",
+  "item.acairsepicweapons.iron_spear": "Желѣзное Копье",
+
+  "item.acairsepicweapons.gold_chekan": "Золотой Чеканъ",
+  "item.acairsepicweapons.gold_dagger": "Золотой Кинжалъ",
+  "item.acairsepicweapons.gold_katana": "Золотая Катана",
+  "item.acairsepicweapons.gold_katar": "Золотой Катаръ",
+  "item.acairsepicweapons.gold_oldsword": "Золотой Древній Мечъ",
+  "item.acairsepicweapons.gold_saber": "Золотая Сабля",
+  "item.acairsepicweapons.gold_scythe": "Золотая Коса",
+  "item.acairsepicweapons.gold_spear": "Золотое Копье",
+
+  "item.acairsepicweapons.diamond_chekan": "Алмазный Чеканъ",
+  "item.acairsepicweapons.diamond_dagger": "Алмазный Кинжалъ",
+  "item.acairsepicweapons.diamond_katana": "Алмазная Катана",
+  "item.acairsepicweapons.diamond_katar": "Алмазный Катаръ",
+  "item.acairsepicweapons.diamond_oldsword": "Алмазный Древній Мечъ",
+  "item.acairsepicweapons.diamond_saber": "Алмазная Сабля",
   "item.acairsepicweapons.diamond_scythe": "Алмазная Коса",
+  "item.acairsepicweapons.diamond_spear": "Алмазное Копье",
+
+  "item.acairsepicweapons.netherite_chekan": "Незеритовый Чеканъ",
+  "item.acairsepicweapons.netherite_dagger": "Незеритовый Кинжалъ",
+  "item.acairsepicweapons.netherite_katana": "Незеритовая Катана",
+  "item.acairsepicweapons.netherite_katar": "Незеритовый Катаръ",
+  "item.acairsepicweapons.netherite_oldsword": "Незеритовый Древній Мечъ",
+  "item.acairsepicweapons.netherite_saber": "Незеритовая Сабля",
+  "item.acairsepicweapons.netherite_scythe": "Незеритовая Коса",
+  "item.acairsepicweapons.netherite_spear": "Незеритовое Копье",
 
   "effect.acairsepicweapons.bleeding": "Кровотеченіе",
   "effect.acairsepicweapons.bleeding_i": "Кровотеченіе I",
@@ -10,5 +50,5 @@
   "effect.acairsepicweapons.bleeding_iii": "Кровотеченіе III",
   "effect.acairsepicweapons.bleeding_iv": "Кровотеченіе IV",
   "effect.acairsepicweapons.bleeding_v": "Кровотеченіе V",
-  "item.acairsepicweapons.scythe.tooltip": "Вызываетъ кровотеченіе, которое наноситъ уронъ некаторе время"
+  "item.acairsepicweapons.scythe.tooltip": "Вызываетъ кровотеченіе на 3,5 секунды"
 }

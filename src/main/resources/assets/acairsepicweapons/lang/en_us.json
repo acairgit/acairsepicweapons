@@ -1,8 +1,48 @@
 {
+  "item.acairsepicweapons.stone_chekan": "Stone Chekan",
+  "item.acairsepicweapons.stone_dagger": "Stone Dagger",
+  "item.acairsepicweapons.stone_katana": "Stone Katana",
+  "item.acairsepicweapons.stone_katar": "Stone Katar",
+  "item.acairsepicweapons.stone_oldsword": "Stone Ancient Sword",
+  "item.acairsepicweapons.stone_saber": "Stone Saber",
+  "item.acairsepicweapons.stone_scythe": "Stone Scythe",
+  "item.acairsepicweapons.stone_spear": "Stone Spear",
+
+  "item.acairsepicweapons.iron_chekan": "Iron Chekan",
   "item.acairsepicweapons.iron_dagger": "Iron Dagger",
-  "item.acairsepicweapons.diamond_dagger": "Diamond Dagger",
+  "item.acairsepicweapons.iron_katana": "Iron Katana",
+  "item.acairsepicweapons.iron_katar": "Iron Katar",
+  "item.acairsepicweapons.iron_oldsword": "Iron Ancient Sword",
+  "item.acairsepicweapons.iron_saber": "Iron Saber",
   "item.acairsepicweapons.iron_scythe": "Iron Scythe",
+  "item.acairsepicweapons.iron_spear": "Iron Spear",
+
+  "item.acairsepicweapons.gold_chekan": "Golden Chekan",
+  "item.acairsepicweapons.gold_dagger": "Golden Dagger",
+  "item.acairsepicweapons.gold_katana": "Golden Katana",
+  "item.acairsepicweapons.gold_katar": "Golden Katar",
+  "item.acairsepicweapons.gold_oldsword": "Golden Ancient Sword",
+  "item.acairsepicweapons.gold_saber": "Golden Saber",
+  "item.acairsepicweapons.gold_scythe": "Golden Scythe",
+  "item.acairsepicweapons.gold_spear": "Golden Spear",
+
+  "item.acairsepicweapons.diamond_chekan": "Diamond Chekan",
+  "item.acairsepicweapons.diamond_dagger": "Diamond Dagger",
+  "item.acairsepicweapons.diamond_katana": "Diamond Katana",
+  "item.acairsepicweapons.diamond_katar": "Diamond Katar",
+  "item.acairsepicweapons.diamond_oldsword": "Diamond Ancient Sword",
+  "item.acairsepicweapons.diamond_saber": "Diamond Saber",
   "item.acairsepicweapons.diamond_scythe": "Diamond Scythe",
+  "item.acairsepicweapons.diamond_spear": "Diamond Spear",
+
+  "item.acairsepicweapons.netherite_chekan": "Netherite Chekan",
+  "item.acairsepicweapons.netherite_dagger": "Netherite Dagger",
+  "item.acairsepicweapons.netherite_katana": "Netherite Katana",
+  "item.acairsepicweapons.netherite_katar": "Netherite Katar",
+  "item.acairsepicweapons.netherite_oldsword": "Netherite Ancient Sword",
+  "item.acairsepicweapons.netherite_saber": "Netherite Saber",
+  "item.acairsepicweapons.netherite_scythe": "Netherite Scythe",
+  "item.acairsepicweapons.netherite_spear": "Netherite Spear",
 
   "effect.acairsepicweapons.bleeding": "Bleeding",
   "effect.acairsepicweapons.bleeding_i": "Bleeding I",
@@ -10,5 +50,5 @@
   "effect.acairsepicweapons.bleeding_iii": "Bleeding III",
   "effect.acairsepicweapons.bleeding_iv": "Bleeding IV",
   "effect.acairsepicweapons.bleeding_v": "Bleeding V",
-  "item.acairsepicweapons.scythe.tooltip": "Causes bleeding, which causes damage for a while"
+  "item.acairsepicweapons.scythe.tooltip": "Inflicts Bleed for 3.5 seconds"
 }

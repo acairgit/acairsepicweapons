@@ -2,7 +2,6 @@ package net.acair.acairsepicweapons;
 
 import net.acair.acairsepicweapons.effect.ModEffects;
 import net.acair.acairsepicweapons.item.ModItems;
-import net.acair.acairsepicweapons.particle.ModParticles;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -18,13 +17,12 @@ public class AcairsEpicWeapons {
     static {
         LogUtils.getLogger();
     }
-//
+
     public AcairsEpicWeapons() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.ITEMS.register(modEventBus);
         ModEffects.MOB_EFFECTS.register(modEventBus);
-        ModParticles.PARTICLES.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -32,8 +30,14 @@ public class AcairsEpicWeapons {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            ModItems.CHEKANS.forEach(dagger -> event.accept(dagger.get()));
             ModItems.DAGGERS.forEach(dagger -> event.accept(dagger.get()));
+            ModItems.KATANAS.forEach(dagger -> event.accept(dagger.get()));
+            ModItems.KATARS.forEach(dagger -> event.accept(dagger.get()));
+            ModItems.OLDSWORDS.forEach(dagger -> event.accept(dagger.get()));
+            ModItems.SABERS.forEach(dagger -> event.accept(dagger.get()));
             ModItems.SCYTHES.forEach(scythe -> event.accept(scythe.get()));
+            ModItems.SPEARS.forEach(scythe -> event.accept(scythe.get()));
         }
     }
 }

@@ -1,7 +1,6 @@
 package net.acair.acairsepicweapons.item;
 
 import net.acair.acairsepicweapons.effect.ModEffects;
-import net.acair.acairsepicweapons.particle.BloodParticles;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.Style;
 import net.minecraft.network.chat.TextColor;
@@ -13,9 +12,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
-
 import java.util.List;
-//
+
 public class ScytheItem extends SwordItem {
     private final int bleedingLevel;
 
@@ -27,10 +25,8 @@ public class ScytheItem extends SwordItem {
     @Override
     public boolean hurtEnemy(@NotNull ItemStack stack, LivingEntity target, @NotNull LivingEntity attacker) {
         // Наложение эффекта кровотечения на сущность при ударе
-        target.addEffect(new MobEffectInstance(ModEffects.BLEEDING.get(), 100, this.bleedingLevel));
-
-        if (target.level().isClientSide) {
-            BloodParticles.spawnBloodParticles(target, target.level());
+        if (!target.level().isClientSide) {
+            target.addEffect(new MobEffectInstance(ModEffects.BLEEDING.get(), 100, this.bleedingLevel));
         }
 
         return super.hurtEnemy(stack, target, attacker);
@@ -48,13 +44,13 @@ public class ScytheItem extends SwordItem {
             case 4 -> bleedingText = "effect.acairsepicweapons.bleeding_v";
         }
 
-        // Добавляем текст "Bleeding" с уровнем красным цветом
+        // Добавляем текст "Bleeding" с уровнем
         tooltip.add(Component.translatable(bleedingText)
-                .setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFF5555))));
+                .setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFC5454))));
 
-        // Добавляем описание эффекта белым цветом
+        // Добавляем описание эффекта
         tooltip.add(Component.translatable("item.acairsepicweapons.scythe.tooltip")
-                .setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFFFFFF))));
+                .setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xA8A8A8))));
 
         super.appendHoverText(stack, level, tooltip, flag);
     }

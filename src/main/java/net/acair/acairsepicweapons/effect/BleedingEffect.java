@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 public class BleedingEffect extends MobEffect {
 
     public BleedingEffect() {
-        super(MobEffectCategory.HARMFUL, 0x8B0000); // Красный цвет эффекта
+        super(MobEffectCategory.HARMFUL, 0xFC5454); // Красный цвет эффекта
     }
 
     @Override
