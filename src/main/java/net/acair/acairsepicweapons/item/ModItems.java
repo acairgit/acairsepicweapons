@@ -19,44 +19,50 @@ public class ModItems {
     // Регистрация чеканов
     public static final RegistryObject<Item> STONE_CHEKAN = registerWeapon("stone_chekan", Tiers.STONE);
     public static final RegistryObject<Item> IRON_CHEKAN = registerWeapon("iron_chekan", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_CHEKAN = registerWeapon("gold_chekan", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_CHEKAN = registerWeapon("diamond_chekan", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_CHEKAN = registerWeapon("netherite_chekan", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> CHEKANS = List.of(STONE_CHEKAN, IRON_CHEKAN, DIAMOND_CHEKAN, NETHERITE_CHEKAN);
+    public static final List<RegistryObject<Item>> CHEKANS = List.of(STONE_CHEKAN, IRON_CHEKAN, GOLD_CHEKAN, DIAMOND_CHEKAN, NETHERITE_CHEKAN);
 
     // Регистрация кинжалов
     public static final RegistryObject<Item> STONE_DAGGER = registerWeapon("stone_dagger", Tiers.STONE);
     public static final RegistryObject<Item> IRON_DAGGER = registerWeapon("iron_dagger", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_DAGGER = registerWeapon("gold_dagger", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_DAGGER = registerWeapon("diamond_dagger", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_DAGGER = registerWeapon("netherite_dagger", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> DAGGERS = List.of(STONE_DAGGER, IRON_DAGGER, DIAMOND_DAGGER, NETHERITE_DAGGER);
+    public static final List<RegistryObject<Item>> DAGGERS = List.of(STONE_DAGGER, IRON_DAGGER, GOLD_DAGGER, DIAMOND_DAGGER, NETHERITE_DAGGER);
 
     // Регистрация катан
     public static final RegistryObject<Item> STONE_KATANA = registerWeapon("stone_katana", Tiers.STONE);
     public static final RegistryObject<Item> IRON_KATANA = registerWeapon("iron_katana", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_KATANA = registerWeapon("gold_katana", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_KATANA = registerWeapon("diamond_katana", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_KATANA = registerWeapon("netherite_katana", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> KATANAS = List.of(STONE_KATANA, IRON_KATANA, DIAMOND_KATANA, NETHERITE_KATANA);
+    public static final List<RegistryObject<Item>> KATANAS = List.of(STONE_KATANA, IRON_KATANA, GOLD_KATANA, DIAMOND_KATANA, NETHERITE_KATANA);
 
     // Регистрация катаров
     public static final RegistryObject<Item> STONE_KATAR = registerWeapon("stone_katar", Tiers.STONE);
     public static final RegistryObject<Item> IRON_KATAR = registerWeapon("iron_katar", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_KATAR = registerWeapon("gold_katar", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_KATAR = registerWeapon("diamond_katar", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_KATAR = registerWeapon("netherite_katar", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> KATARS = List.of(STONE_KATAR, IRON_KATAR, DIAMOND_KATAR, NETHERITE_KATAR);
+    public static final List<RegistryObject<Item>> KATARS = List.of(STONE_KATAR, IRON_KATAR, GOLD_KATAR, DIAMOND_KATAR, NETHERITE_KATAR);
 
     // Регистрация древних мечей
     public static final RegistryObject<Item> STONE_OLDSWORD = registerWeapon("stone_oldsword", Tiers.STONE);
     public static final RegistryObject<Item> IRON_OLDSWORD = registerWeapon("iron_oldsword", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_OLDSWORD = registerWeapon("gold_oldsword", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_OLDSWORD = registerWeapon("diamond_oldsword", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_OLDSWORD = registerWeapon("netherite_oldsword", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> OLDSWORDS = List.of(STONE_OLDSWORD, IRON_OLDSWORD, DIAMOND_OLDSWORD, NETHERITE_OLDSWORD);
+    public static final List<RegistryObject<Item>> OLDSWORDS = List.of(STONE_OLDSWORD, IRON_OLDSWORD, GOLD_OLDSWORD, DIAMOND_OLDSWORD, NETHERITE_OLDSWORD);
 
     // Регистрация сабель
     public static final RegistryObject<Item> STONE_SABER = registerWeapon("stone_saber", Tiers.STONE);
     public static final RegistryObject<Item> IRON_SABER = registerWeapon("iron_saber", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_SABER = registerWeapon("gold_saber", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_SABER = registerWeapon("diamond_saber", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_SABER = registerWeapon("netherite_saber", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> SABERS = List.of(STONE_SABER, IRON_SABER, DIAMOND_SABER, NETHERITE_SABER);
+    public static final List<RegistryObject<Item>> SABERS = List.of(STONE_SABER, IRON_SABER, GOLD_SABER, DIAMOND_SABER, NETHERITE_SABER);
 
     // Регистрация кос
     private static RegistryObject<Item> registerScythe(String name, Tiers tier, int bleedingLevel) {
@@ -64,14 +70,16 @@ public class ModItems {
     }
     public static final RegistryObject<Item> STONE_SCYTHE = registerScythe("stone_scythe", Tiers.STONE, 1);
     public static final RegistryObject<Item> IRON_SCYTHE = registerScythe("iron_scythe", Tiers.IRON, 2);
+    public static final RegistryObject<Item> GOLD_SCYTHE = registerScythe("gold_scythe", Tiers.GOLD, 3);
     public static final RegistryObject<Item> DIAMOND_SCYTHE = registerScythe("diamond_scythe", Tiers.DIAMOND, 3);
     public static final RegistryObject<Item> NETHERITE_SCYTHE = registerScythe("netherite_scythe", Tiers.NETHERITE, 4);
-    public static final List<RegistryObject<Item>> SCYTHES = List.of(STONE_SCYTHE, IRON_SCYTHE, DIAMOND_SCYTHE, NETHERITE_SCYTHE);
+    public static final List<RegistryObject<Item>> SCYTHES = List.of(STONE_SCYTHE, IRON_SCYTHE, GOLD_SCYTHE, DIAMOND_SCYTHE, NETHERITE_SCYTHE);
 
     // Регистрация копий
     public static final RegistryObject<Item> STONE_SPEAR = registerWeapon("stone_spear", Tiers.STONE);
     public static final RegistryObject<Item> IRON_SPEAR = registerWeapon("iron_spear", Tiers.IRON);
+    public static final RegistryObject<Item> GOLD_SPEAR = registerWeapon("gold_spear", Tiers.GOLD);
     public static final RegistryObject<Item> DIAMOND_SPEAR = registerWeapon("diamond_spear", Tiers.DIAMOND);
     public static final RegistryObject<Item> NETHERITE_SPEAR = registerWeapon("netherite_spear", Tiers.NETHERITE);
-    public static final List<RegistryObject<Item>> SPEARS = List.of(STONE_SPEAR, IRON_SPEAR, DIAMOND_SPEAR, NETHERITE_SPEAR);
+    public static final List<RegistryObject<Item>> SPEARS = List.of(STONE_SPEAR, IRON_SPEAR, GOLD_SPEAR, DIAMOND_SPEAR, NETHERITE_SPEAR);
 }
