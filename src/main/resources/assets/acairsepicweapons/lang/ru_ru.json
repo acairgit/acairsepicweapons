@@ -44,7 +44,19 @@
   "item.acairsepicweapons.netherite_scythe": "Незеритовая Коса",
   "item.acairsepicweapons.netherite_spear": "Незеритовое Копье",
 
-  "effect.acairsepicweapons.bleeding": "Кровотечение",
+
+  "effect.acairsepicweapons.cloak_of_shadows": "Теневой Плащ",
+  "effect.acairsepicweapons.cloak_of_shadows_i": "Теневой Плащ I",
+  "effect.acairsepicweapons.cloak_of_shadows_ii": "Теневой Плащ II",
+  "effect.acairsepicweapons.cloak_of_shadows_iii": "Теневой Плащ III",
+  "effect.acairsepicweapons.cloak_of_shadows_iv": "Теневой Плащ IV",
+  "effect.acairsepicweapons.cloak_of_shadows_v": "Теневой Плащ V",
+  "item.acairsepicweapons.dagger.tooltip_i": "Имея менее 60% здоровья, вы можете провести серию из трех полных и непрерывных атак, чтобы получить +1 к Урону и 3с Невидимости и Неуязвимости",
+  "item.acairsepicweapons.dagger.tooltip_ii": "Имея менее 60% здоровья, вы можете провести серию из трех полных и непрерывных атак, чтобы получить +2 к Урону и 3с Невидимости и Неуязвимости",
+  "item.acairsepicweapons.dagger.tooltip_iii": "Имея менее 60% здоровья, вы можете провести серию из трех полных и непрерывных атак, чтобы получить +3 к Урону и 3.5с Невидимости и Неуязвимости",
+  "item.acairsepicweapons.dagger.tooltip_iv": "Имея менее 60% здоровья, вы можете провести серию из трех полных и непрерывных атак, чтобы получить +4 к Урону и 3.5с Невидимости и Неуязвимости",
+  "item.acairsepicweapons.dagger.tooltip_v": "Имея менее 60% здоровья, вы можете провести серию из трех полных и непрерывных атак, чтобы получить +5 к Урону и 4с Невидимости и Неуязвимости",
+
   "effect.acairsepicweapons.bleeding_i": "Кровотечение I",
   "effect.acairsepicweapons.bleeding_ii": "Кровотечение II",
   "effect.acairsepicweapons.bleeding_iii": "Кровотечение III",

@@ -15,7 +15,6 @@ public class ModItems {
     private static RegistryObject<Item> registerWeapon(String name, Tiers tier) {
         return ITEMS.register(name, () -> new SwordItem(tier, 1, (float) -1.5, new Item.Properties()));
     }
-
     // Регистрация чеканов
     public static final RegistryObject<Item> STONE_CHEKAN = registerWeapon("stone_chekan", Tiers.STONE);
     public static final RegistryObject<Item> IRON_CHEKAN = registerWeapon("iron_chekan", Tiers.IRON);
@@ -25,11 +24,14 @@ public class ModItems {
     public static final List<RegistryObject<Item>> CHEKANS = List.of(STONE_CHEKAN, IRON_CHEKAN, GOLD_CHEKAN, DIAMOND_CHEKAN, NETHERITE_CHEKAN);
 
     // Регистрация кинжалов
-    public static final RegistryObject<Item> STONE_DAGGER = registerWeapon("stone_dagger", Tiers.STONE);
-    public static final RegistryObject<Item> IRON_DAGGER = registerWeapon("iron_dagger", Tiers.IRON);
-    public static final RegistryObject<Item> GOLD_DAGGER = registerWeapon("gold_dagger", Tiers.GOLD);
-    public static final RegistryObject<Item> DIAMOND_DAGGER = registerWeapon("diamond_dagger", Tiers.DIAMOND);
-    public static final RegistryObject<Item> NETHERITE_DAGGER = registerWeapon("netherite_dagger", Tiers.NETHERITE);
+    private static RegistryObject<Item> registerDagger(String name, Tiers tier, int cloakLevel) {
+        return ITEMS.register(name, () -> new DaggerItem(tier, 1, (float) -1.5, new Item.Properties(), cloakLevel));
+    }
+    public static final RegistryObject<Item> STONE_DAGGER = registerDagger("stone_dagger", Tiers.STONE, 1);
+    public static final RegistryObject<Item> IRON_DAGGER = registerDagger("iron_dagger", Tiers.IRON, 2);
+    public static final RegistryObject<Item> GOLD_DAGGER = registerDagger("gold_dagger", Tiers.GOLD, 3);
+    public static final RegistryObject<Item> DIAMOND_DAGGER = registerDagger("diamond_dagger", Tiers.DIAMOND, 3);
+    public static final RegistryObject<Item> NETHERITE_DAGGER = registerDagger("netherite_dagger", Tiers.NETHERITE, 4);
     public static final List<RegistryObject<Item>> DAGGERS = List.of(STONE_DAGGER, IRON_DAGGER, GOLD_DAGGER, DIAMOND_DAGGER, NETHERITE_DAGGER);
 
     // Регистрация катан

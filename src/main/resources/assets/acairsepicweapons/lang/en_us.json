@@ -44,7 +44,19 @@
   "item.acairsepicweapons.netherite_scythe": "Netherite Scythe",
   "item.acairsepicweapons.netherite_spear": "Netherite Spear",
 
-  "effect.acairsepicweapons.bleeding": "Bleeding",
+
+  "effect.acairsepicweapons.cloak_of_shadows": "Cloak of Shadows",
+  "effect.acairsepicweapons.cloak_of_shadows_i": "Cloak of Shadows I",
+  "effect.acairsepicweapons.cloak_of_shadows_ii": "Cloak of Shadows II",
+  "effect.acairsepicweapons.cloak_of_shadows_iii": "Cloak of Shadows III",
+  "effect.acairsepicweapons.cloak_of_shadows_iv": "Cloak of Shadows IV",
+  "effect.acairsepicweapons.cloak_of_shadows_v": "Cloak of Shadows V",
+  "item.acairsepicweapons.dagger.tooltip_i": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +1 Damage and 3s of Invisibility and Invulnerability",
+  "item.acairsepicweapons.dagger.tooltip_ii": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +2 Damage and 3s of Invisibility and Invulnerability",
+  "item.acairsepicweapons.dagger.tooltip_iii": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +3 Damage and 3.5s of Invisibility and Invulnerability",
+  "item.acairsepicweapons.dagger.tooltip_iv": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +4 Damage and 3.5s of Invisibility and Invulnerability",
+  "item.acairsepicweapons.dagger.tooltip_v": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +5 Damage and 4s of Invisibility and Invulnerability",
+
   "effect.acairsepicweapons.bleeding_i": "Bleeding I",
   "effect.acairsepicweapons.bleeding_ii": "Bleeding II",
   "effect.acairsepicweapons.bleeding_iii": "Bleeding III",

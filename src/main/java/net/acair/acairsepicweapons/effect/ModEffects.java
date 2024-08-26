@@ -11,6 +11,6 @@ public class ModEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS =
             DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, "acairsepicweapons");
 
-    public static final RegistryObject<MobEffect> BLEEDING = MOB_EFFECTS.register("bleeding",
-            BleedingEffect::new);
+    public static final RegistryObject<MobEffect> BLEEDING = MOB_EFFECTS.register("bleeding", BleedingEffect::new);
+    public static final RegistryObject<MobEffect> CLOAK_OF_SHADOWS = MOB_EFFECTS.register("cloak_of_shadows", CloakOfShadowsEffect::new);
 }

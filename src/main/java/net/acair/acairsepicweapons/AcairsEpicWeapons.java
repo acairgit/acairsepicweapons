@@ -1,6 +1,7 @@
 package net.acair.acairsepicweapons;
 
 import net.acair.acairsepicweapons.effect.ModEffects;
+import net.acair.acairsepicweapons.event.ModEvents;
 import net.acair.acairsepicweapons.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ public class AcairsEpicWeapons {
         ModEffects.MOB_EFFECTS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+        ModEvents.register();
         modEventBus.addListener(this::addCreative);
     }
 
