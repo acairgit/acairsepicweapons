@@ -57,10 +57,34 @@
   "item.acairsepicweapons.dagger.tooltip_iv": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +4 Damage and 3.5s of Invisibility and Invulnerability",
   "item.acairsepicweapons.dagger.tooltip_v": "With less than 60% health, you can launch a series of three full and continuous attacks to gain +5 Damage and 4s of Invisibility and Invulnerability",
 
+  "effect.acairsepicweapons.overpower": "Overpower",
+  "effect.acairsepicweapons.overpower_i": "Overpower I",
+  "effect.acairsepicweapons.overpower_ii": "Overpower II",
+  "effect.acairsepicweapons.overpower_iii": "Overpower III",
+  "effect.acairsepicweapons.overpower_iv": "Overpower IV",
+  "effect.acairsepicweapons.overpower_v": "Overpower V",
+  "item.acairsepicweapons.greatsword.tooltip_i": "Increases damage by 1.2x, every third attack in the series",
+  "item.acairsepicweapons.greatsword.tooltip_ii": "Increases damage by 1.3x, every third attack in the series",
+  "item.acairsepicweapons.greatsword.tooltip_iii": "Increases damage by 1.4x, every third attack in the series",
+  "item.acairsepicweapons.greatsword.tooltip_iv": "Increases damage by 1.5x, every third attack in the series",
+  "item.acairsepicweapons.greatsword.tooltip_v": "Increases damage by 1.6x, every third attack in the series",
+
   "effect.acairsepicweapons.bleeding_i": "Bleeding I",
   "effect.acairsepicweapons.bleeding_ii": "Bleeding II",
   "effect.acairsepicweapons.bleeding_iii": "Bleeding III",
   "effect.acairsepicweapons.bleeding_iv": "Bleeding IV",
   "effect.acairsepicweapons.bleeding_v": "Bleeding V",
-  "item.acairsepicweapons.scythe.tooltip": "Inflicts Bleed for 3.5 seconds"
+  "item.acairsepicweapons.scythe.tooltip": "Inflicts Bleed for 3.5 seconds",
+
+  "effect.acairsepicweapons.withering_weight": "Withering Weight",
+  "effect.acairsepicweapons.withering_weight_i": "Withering Weight I",
+  "effect.acairsepicweapons.withering_weight_ii": "Withering Weight II",
+  "effect.acairsepicweapons.withering_weight_iii": "Withering Weight III",
+  "effect.acairsepicweapons.withering_weight_iv": "Withering Weight IV",
+  "effect.acairsepicweapons.withering_weight_v": "Withering Weight V",
+  "item.acairsepicweapons.spear.tooltip_i": "Slows down the enemy by 15% and deals 4 damage to the integrity of the armor",
+  "item.acairsepicweapons.spear.tooltip_ii": "Slows down the enemy by 25% and deals 7 damage to the integrity of the armor",
+  "item.acairsepicweapons.spear.tooltip_iii": "Slows down the enemy by 35% and deals 10 damage to the integrity of the armor.",
+  "item.acairsepicweapons.spear.tooltip_iv": "Slows down the enemy by 45% and deals 13 damage to the integrity of the armor",
+  "item.acairsepicweapons.spear.tooltip_v": "Slows down the enemy by 50% and deals 16 damage to the integrity of the armor"
 }

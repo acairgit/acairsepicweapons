@@ -57,10 +57,34 @@
   "item.acairsepicweapons.dagger.tooltip_iv": "Имея мене 60% здравія, вы можете сотворити тройную непрерывную серию полныхъ ударовъ, дабы обрести +4 къ Урону и 3.5 секунды Незримости и Непробиваемости",
   "item.acairsepicweapons.dagger.tooltip_v": "Имея мене 60% здравія, вы можете сотворити тройную непрерывную серию полныхъ ударовъ, дабы обрести +5 къ Урону и 4 секунды Незримости и Непробиваемости",
 
+  "effect.acairsepicweapons.overpower": "Вѣличіе",
+  "effect.acairsepicweapons.overpower_i": "Вѣличіе I",
+  "effect.acairsepicweapons.overpower_ii": "Вѣличіе II",
+  "effect.acairsepicweapons.overpower_iii": "Вѣличіе III",
+  "effect.acairsepicweapons.overpower_iv": "Вѣличіе IV",
+  "effect.acairsepicweapons.overpower_v": "Вѣличіе V",
+  "item.acairsepicweapons.greatsword.tooltip_i": "Увѣличиваетъ поврежденіе въ 1,2 раза, для каждаго третіаго удара въ послѣдовательности",
+  "item.acairsepicweapons.greatsword.tooltip_ii": "Увѣличиваетъ поврежденіе въ 1,2 раза, для каждаго третіаго удара въ послѣдовательности",
+  "item.acairsepicweapons.greatsword.tooltip_iii": "Увѣличиваетъ поврежденіе въ 1,2 раза, для каждаго третіаго удара въ послѣдовательности",
+  "item.acairsepicweapons.greatsword.tooltip_iv": "Увѣличиваетъ поврежденіе въ 1,2 раза, для каждаго третіаго удара въ послѣдовательности",
+  "item.acairsepicweapons.greatsword.tooltip_v": "Увѣличиваетъ поврежденіе въ 1,2 раза, для каждаго третіаго удара въ послѣдовательности",
+
   "effect.acairsepicweapons.bleeding_i": "Кровопусканіе I",
   "effect.acairsepicweapons.bleeding_ii": "Кровопусканіе II",
   "effect.acairsepicweapons.bleeding_iii": "Кровопусканіе III",
   "effect.acairsepicweapons.bleeding_iv": "Кровопусканіе IV",
   "effect.acairsepicweapons.bleeding_v": "Кровопусканіе V",
-  "item.acairsepicweapons.scythe.tooltip": "Вызываетъ кровотеченіе на 3,5 секунды"
+  "item.acairsepicweapons.scythe.tooltip": "Вызываетъ кровотеченіе на 3,5 секунды",
+
+  "effect.acairsepicweapons.withering_weight": "Увѣдшая Броня",
+  "effect.acairsepicweapons.withering_weight_i": "Увѣдшая Броня I",
+  "effect.acairsepicweapons.withering_weight_ii": "Увѣдшая Броня II",
+  "effect.acairsepicweapons.withering_weight_iii": "Увѣдшая Броня III",
+  "effect.acairsepicweapons.withering_weight_iv": "Увѣдшая Броня IV",
+  "effect.acairsepicweapons.withering_weight_v": "Увѣдшая Броня V",
+  "item.acairsepicweapons.spear.tooltip_i": "Замѣдляетъ супостата на 15% и наноситъ 4 вѣреда цѣлости брони",
+  "item.acairsepicweapons.spear.tooltip_ii": "Замѣдляетъ супостата на 25% и наноситъ 7 вѣреда цѣлости брони",
+  "item.acairsepicweapons.spear.tooltip_iii": "Замѣдляетъ супостата на 35% и наноситъ 10 вѣреда цѣлости брони",
+  "item.acairsepicweapons.spear.tooltip_iv": "Замѣдляетъ супостата на 45% и наноситъ 13 вѣреда цѣлости брони",
+  "item.acairsepicweapons.spear.tooltip_v": "Замѣдляетъ супостата на 50% и наноситъ 16 вѣреда цѣлости брони"
 }
